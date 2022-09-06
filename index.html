@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Don Frappo</title>
+  </head>
+  <body>
+    <section id="Order" class="order-form">
+      <div class="order-container">
+        <h1>
+          Order
+          <button class="exit">
+            <span></span>
+            <span></span>
+          </button>
+        </h1>
+        <div class="order-content">
+          <form id="form">
+            <input type="text" id="name" placeholder="Your Name" />
+            <div class="selection">
+              <div class="milk-tea">
+                <input type="checkbox" name="milk-tea" id="milk-tea" /><label
+                  for="milk-tea"
+                  >Milk Tea
+                </label>
+                <div class="milk-tea-contents">
+                  <div class="taro">
+                    <input type="checkbox" name="taro" id="taro" />
+                    <label for="taro">Taro</label>
+                    <div class="selection-taro">
+                      <div class="sugar-level">
+                        <label for="sugar">Sugar Level</label>
+                        <select name="sugar">
+                          <option value="25%">25%</option>
+                          <option value="50%">50%</option>
+                          <option value="75%">75%</option>
+                          <option value="100%">100%</option>
+                        </select>
+                      </div>
+                      <div class="quantity">
+                        <label for="quantity">Quantity</label>
+                        <select name="quantity" id="quantity-taro">
+                          <option>---</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
+                      </div>
+                      <div class="size">
+                        <label for="size">Size</label>
+                        <select name="size" id="size-taro">
+                          <option>---</option>
+                          <option value="50">Small</option>
+                          <option value="90">Medium</option>
+                          <option value="110">Large</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="winter">
+                    <input type="checkbox" name="winter" id="winter" />
+                    <label for="winter">Winter Melon</label>
+                    <div class="selection-winter">
+                      <div class="sugar-level">
+                        <label for="sugar">Sugar Level</label>
+                        <select name="sugar">
+                          <option value="25%">25%</option>
+                          <option value="50%">50%</option>
+                          <option value="75%">75%</option>
+                          <option value="100%">100%</option>
+                        </select>
+                      </div>
+                      <div class="quantity">
+                        <label for="quantity">Quantity</label>
+                        <select name="quantity" id="quantity-winter">
+                          <option>---</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
+                      </div>
+                      <div class="size">
+                        <label for="size">Size</label>
+                        <select name="size" id="size-winter">
+                          <option>---</option>
+                          <option value="50">Small</option>
+                          <option value="90">Medium</option>
+                          <option value="110">Large</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nutella">
+                    <input type="checkbox" name="nutella" id="nutella" />
+                    <label for="nutella">Nutella</label>
+                    <div class="selection-nutella">
+                      <div class="sugar-level">
+                        <label for="sugar">Sugar Level</label>
+                        <select name="sugar">
+                          <option value="25%">25%</option>
+                          <option value="50%">50%</option>
+                          <option value="75%">75%</option>
+                          <option value="100%">100%</option>
+                        </select>
+                      </div>
+                      <div class="quantity">
+                        <label for="quantity">Quantity</label>
+                        <select name="quantity" id="quantity-nutella">
+                          <option>---</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
+                      </div>
+                      <div class="size">
+                        <label for="size">Size</label>
+                        <select name="size" id="size-nutella">
+                          <option>---</option>
+                          <option value="50">Small</option>
+                          <option value="90">Medium</option>
+                          <option value="110">Large</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="matcha">
+                    <input type="checkbox" name="mathca" id="matcha" />
+                    <label for="matche">Matcha</label>
+                    <div class="selection-matcha">
+                      <div class="sugar-level">
+                        <label for="sugar">Sugar Level</label>
+                        <select name="sugar">
+                          <option value="25%">25%</option>
+                          <option value="50%">50%</option>
+                          <option value="75%">75%</option>
+                          <option value="100%">100%</option>
+                        </select>
+                      </div>
+                      <div class="quantity">
+                        <label for="quantity">Quantity</label>
+                        <select name="quantity" id="quantity-matcha">
+                          <option value="0">---</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                        </select>
+                      </div>
+                      <div class="size">
+                        <label for="size">Size</label>
+                        <select name="size" id="size-matcha">
+                          <option value="0">---</option>
+                          <option value="50">Small</option>
+                          <option value="90">Medium</option>
+                          <option value="110">Large</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="submit">
+              <label for="destination">Delivery Area</label>
+              <select name="destination" id="destination">
+                <option></option>
+                <option value="30">Sablan</option>
+                <option value="40">Kamog</option>
+                <option value="40">Pappa</option>
+                <option value="22">Palali</option>
+                <option value="24">Bayabas</option>
+                <option value="30">Banangan</option>
+              </select>
+              <div class="delivery-fee">₱</div>
+              <label for="spacify">Please Especify your Area</label>
+              <input type="text" name="specify" />
+              <button type="button" id="submit">Order Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-result">
+      <div class="result-container">
+        <h1>Your Order was sucessfully added!</h1>
+        <div>
+          <a href="result.html" target="_blank"
+            ><button type="button" id="view">View results</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="background">
+      <nav id="Home">
+        <div class="container">
+          <a href="#Home" class="logo">
+            <img src="images/Logo.jpg" alt="Logo" />
+            <p>Don Frappo</p>
+          </a>
+
+          <div class="nav-links">
+            <a href="#" class="active-nav">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Fees</a>
+            <a href="#Order" class="order-toggle">Order Now</a>
+          </div>
+
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+
+      <div class="mobile-nav">
+        <a href="#" class="active-nav">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Fees</a>
+        <a href="#Order" class="order-toggler">Order Now</a>
+      </div>
+    </div>
+
+    <section>
+      <div class="container"><h1>Hello World</h1></div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
